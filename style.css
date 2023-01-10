@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(163, 210, 240);
+    align-items: left;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+button { 
+    color: antiquewhite;
+    border: 4px solid rgb(43, 46, 49);
+    border-radius: 6px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+#results, #data{
+    display: flex;
+}
+
+#data {
+    width: 301px;
+    color: whitesmoke;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+button, #data {
+    background-color: darkgrey;
+}
+
+#results {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+p {
+    margin-left: 15px;
+}
+
